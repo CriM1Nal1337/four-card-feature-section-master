@@ -1,0 +1,106 @@
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--VeryLightGray);
+}
+
+body,.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ia-box{
+    text-align: center;
+    width: 55rem;
+}
+
+.ia-box .title-ia{
+    font-size: 3.7rem;
+    color: var(--VeryDarkBlue);
+    font-weight: 200;
+}
+
+.ia-box .title{
+    font-size: 3.6rem;
+    color: var(--VeryDarkBlue);
+    margin-bottom: 2rem;
+}
+
+.ia-box .p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--GrayishBlue);
+    margin-bottom: 5rem;
+}
+
+.containers-box{
+    display: flex;
+    position: relative;
+    gap: 1rem;
+    height: 53rem;
+}
+
+.containers-box .box{
+    background-color: white;
+    width: 35rem;
+    height: 25rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+}
+
+.box h2,p{
+    padding-left: 3.2rem;
+}
+
+.box h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--VeryDarkBlue);
+}
+
+.box p{
+    font-size: 1.4rem;
+    padding-right: 1rem;
+    margin-bottom: 3.6rem;
+    color: var(--GrayishBlue);
+}
+
+.box .icon{
+    width: 6.5rem;
+    align-self: flex-end;
+    margin-right: 3rem;
+}
+
+.supervisor{
+    border-top: 0.5rem solid var(--Cyan);
+    right: 20.5rem;
+    bottom: 14rem;
+}
+
+.builder{
+    border-top: 0.5rem solid var(--Red);
+    top: 0;
+    right: -17.5rem;
+}
+
+.karma{
+    border-top: 0.5rem solid var(--Orange);
+    bottom: 0;
+    right: -17.5rem;
+}
+
+.calculator{
+    border-top: 0.5rem solid var(--Blue);
+    left: 20.5rem;
+    bottom: 14rem;
+}
